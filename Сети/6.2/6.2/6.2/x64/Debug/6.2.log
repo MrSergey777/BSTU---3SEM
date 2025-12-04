@@ -1,0 +1,10 @@
+﻿  6.2.cpp
+C:\Users\ASUS\Desktop\Лабы\Сети\6.2\6.2\6.2.cpp(12,9): warning C4005: IP_DEST_NET_UNREACHABLE: изменение макроопределения
+C:\Users\ASUS\Desktop\Лабы\Сети\6.2\6.2\6.2.cpp(13,9): warning C4005: IP_DEST_HOST_UNREACHABLE: изменение макроопределения
+C:\Users\ASUS\Desktop\Лабы\Сети\6.2\6.2\6.2.cpp(14,9): warning C4005: IP_DEST_PROT_UNREACHABLE: изменение макроопределения
+C:\Users\ASUS\Desktop\Лабы\Сети\6.2\6.2\6.2.cpp(15,9): warning C4005: IP_DEST_PORT_UNREACHABLE: изменение макроопределения
+C:\Users\ASUS\Desktop\Лабы\Сети\6.2\6.2\6.2.cpp(16,9): warning C4005: IP_REQ_TIMED_OUT: изменение макроопределения
+C:\Users\ASUS\Desktop\Лабы\Сети\6.2\6.2\6.2.cpp(17,9): warning C4005: IP_BAD_REQ: изменение макроопределения
+C:\Users\ASUS\Desktop\Лабы\Сети\6.2\6.2\6.2.cpp(18,9): warning C4005: IP_BAD_ROUTE: изменение макроопределения
+C:\Users\ASUS\Desktop\Лабы\Сети\6.2\6.2\6.2.cpp(19,9): warning C4005: IP_TTL_EXPIRED_TRANSIT: изменение макроопределения
+  6.2.vcxproj -> C:\Users\ASUS\Desktop\Лабы\Сети\6.2\6.2\x64\Debug\6.2.exe

@@ -1,0 +1,12 @@
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\2\library\bin\Debug\net8.0\library.deps.json
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\2\library\bin\Debug\net8.0\library.dll
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\2\library\bin\Debug\net8.0\library.pdb
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\2\library\obj\Debug\net8.0\library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\2\library\obj\Debug\net8.0\library.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\2\library\obj\Debug\net8.0\library.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\2\library\obj\Debug\net8.0\library.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\2\library\obj\Debug\net8.0\library.sourcelink.json
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\2\library\obj\Debug\net8.0\library.dll
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\2\library\obj\Debug\net8.0\refint\library.dll
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\2\library\obj\Debug\net8.0\library.pdb
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\2\library\obj\Debug\net8.0\ref\library.dll

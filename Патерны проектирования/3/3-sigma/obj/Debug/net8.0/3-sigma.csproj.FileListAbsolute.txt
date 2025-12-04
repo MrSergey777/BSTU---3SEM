@@ -1,0 +1,5 @@
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\3\3-sigma\obj\Debug\net8.0\3-sigma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\3\3-sigma\obj\Debug\net8.0\3-sigma.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\3\3-sigma\obj\Debug\net8.0\3-sigma.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\3\3-sigma\obj\Debug\net8.0\3-sigma.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\3\3-sigma\obj\Debug\net8.0\3-sigma.sourcelink.json

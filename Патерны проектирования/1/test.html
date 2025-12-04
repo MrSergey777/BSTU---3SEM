@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Celebrities Auth System</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1>Module/Celebrities Authentication</h1>
+        <div class="row">
+            <span class="col-4"></span>
+            <div class="col-5 d-flex justify-content-end">
+                <div id="STATE_N" style="margin-right:2%;">
+                    <button id="NSignIn" type="button">Sign In</button>
+                    <button id="NRegistration" type="button">Registration</button>
+                </div>
+                <div id="STATE_A" style="margin-right: 2%; display:none;">
+                    <input type="text" id="AName" readonly />
+                    <button id="ASignOut" type="button">Sign Out</button>
+                </div>
+                <div id="STATE_R" style="margin-right: 2%; display:none;">
+                    <input id="RName" name="RName" type="text" placeholder="Login" />
+                    <input id="RPass" name="RPass" type="password" placeholder="Password" />
+                    <button id="RRegistration" type="button">Registration</button>
+                    <button id="RCancel" type="button">Cancel</button>
+                </div>
+                <div id="STATE_S" style="margin-right: 2%; display:none;">
+                    <input id="SName" name="SName" type="text" placeholder="Login" />
+                    <input id="SPass" name="SPass" type="password" placeholder="Password" />
+                    <button id="SSignIn" type="button">Sign In</button>
+                    <button id="SCancel" type="button">Cancel</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="statusMessage" class="status-message" style="display: none;"></div>
+        
+        <script type="module">
+    import API, { SAID, SA, GetUserName, Registration, SignIn, SignOut } from './test.js';
+    
+    const ButtonDissabled = (flag) => {
+        NSignIn.disabled = NRegistration.disabled = flag;
+        RRegistration.disabled = SSignIn.disabled = flag;
+        ASignOut.disabled = flag;
+        RCancel.disabled = SCancel.disabled = flag;
+    };
+
+    const showStatusMessage = (message, isSuccess = true) => {
+        const statusElement = document.getElementById('statusMessage');
+        statusElement.textContent = message;
+        statusElement.className = isSuccess ? 'status-message success' : 'status-message error';
+        statusElement.style.display = 'block';
+        
+        setTimeout(() => {
+            statusElement.style.display = 'none';
+        }, 3000);
+    };
+
+    let Visio = (state, name) => {
+    ButtonDissabled(false);
+    
+    if (state == SA.STATES.A) {
+        AName.value = name || '';
+        STATE_N.style.display = STATE_R.style.display = STATE_S.style.display = 'none';
+        STATE_A.style.display = 'block';
+        showStatusMessage(`Welcome, ${name}! You are successfully logged in.`);
+    } else if (state == SA.STATES.N) {
+        STATE_A.style.display = STATE_R.style.display = STATE_S.style.display = 'none';
+        STATE_N.style.display = 'block';
+    } else if (state == SA.STATES.R) {
+        RName.value = '';
+        RPass.value = '';
+        STATE_A.style.display = STATE_N.style.display = STATE_S.style.display = 'none';
+        STATE_R.style.display = 'block';
+    } else if (state == SA.STATES.S) {
+        SPass.value = '';
+        SName.value = name || '';
+        STATE_A.style.display = STATE_N.style.display = STATE_R.style.display = 'none';
+        STATE_S.style.display = 'block';
+    }
+};
+    let said = new SAID(
+    () => ButtonDissabled(true),  
+    () => {
+        ButtonDissabled(false);
+    }                    
+);
+    let sa = new SA(SA.START.A);
+    
+    const checkAuthState = () => {
+        GetUserName(
+            (name) => { 
+                sa.state = SA.STATES.A;
+                said.postSAID(); 
+                Visio(sa.state, name); 
+            },
+            () => { 
+                sa.state = SA.STATES.N;
+                said.postSAID(); 
+                Visio(sa.state); 
+            }
+        );
+    };
+
+    checkAuthState();
+
+    said.channel.addEventListener('message', (event) => {
+        if (event.data.type === 'TAB_CLOSED' || event.data.type === 'AUTH_CHANGED') {
+            console.log('Received message:', event.data.type);
+            setTimeout(checkAuthState, 100);
+        }
+    });
+
+    document.addEventListener('visibilitychange', () => {
+        if (!document.hidden) {
+            setTimeout(checkAuthState, 100);
+        }
+    });
+
+    sa.on(SA.STATES.RV, (nextstates) => {
+        ButtonDissabled(true);
+        Registration(
+            RName.value,
+            RPass.value,
+            () => { 
+                sa.RunCommand(SA.COMMAND.RSU); 
+                said.postSAID(); 
+                Visio(sa.state, RName.value);
+                showStatusMessage('Registration successful! Please sign in.');
+                setTimeout(() => {
+                    said.channel.postMessage({ type: 'AUTH_CHANGED' });
+                }, 500);
+            },
+            () => { 
+                sa.RunCommand(SA.COMMAND.REJ); 
+                said.postSAID(); 
+                Visio(sa.state); 
+                showStatusMessage('Registration failed. Username might be taken.', false);
+                ButtonDissabled(false);
+            }
+        );
+    });
+
+    sa.on(SA.STATES.SV, (nextstates) => {
+        ButtonDissabled(true);
+        SignIn(
+            SName.value,
+            SPass.value,
+            () => { 
+                sa.RunCommand(SA.COMMAND.LIN); 
+                said.postSAID(); 
+                Visio(sa.state, SName.value);
+                showStatusMessage('Login successful!');
+                setTimeout(() => {
+                    said.channel.postMessage({ type: 'AUTH_CHANGED' });
+                }, 500);
+            },
+            () => { 
+                sa.RunCommand(SA.COMMAND.ADE); 
+                said.postSAID(); 
+                Visio(sa.state); 
+                showStatusMessage('Login failed. Check your credentials.', false);
+                ButtonDissabled(false);
+            }
+        );
+    });
+
+    NRegistration.onclick = () => { 
+        sa.RunCommand(SA.COMMAND.REG); 
+        said.postSAID(); 
+        Visio(sa.state); 
+    };
+    
+    NSignIn.onclick = () => { 
+        sa.RunCommand(SA.COMMAND.SIN);  
+        said.postSAID(); 
+        Visio(sa.state); 
+    };
+    
+    SSignIn.onclick = () => { 
+        sa.RunCommand(SA.COMMAND.SIN); 
+        said.postSAID(); 
+    };
+    
+    SCancel.onclick = () => { 
+        sa.RunCommand(SA.COMMAND.CAN); 
+        said.postSAID(); 
+        Visio(sa.state); 
+    };
+    
+    RRegistration.onclick = () => { 
+        sa.RunCommand(SA.COMMAND.REG); 
+        said.postSAID(); 
+    };
+    
+    RCancel.onclick = () => { 
+        sa.RunCommand(SA.COMMAND.CAN); 
+        said.postSAID(); 
+        Visio(sa.state); 
+    };
+    
+    ASignOut.onclick = () => { 
+        SignOut(() => { 
+            sa.RunCommand(SA.COMMAND.SOU); 
+            said.postSAID(); 
+            Visio(sa.state); 
+            setTimeout(() => {
+                said.channel.postMessage({ type: 'AUTH_CHANGED' });
+            }, 500);
+        }); 
+    };
+
+    console.log(sa);
+    
+    window.addEventListener('beforeunload', () => {
+        said.channel.postMessage({ type: 'TAB_CLOSED' });
+        said.close();
+    });
+</script>
+    </body>
+</html>
