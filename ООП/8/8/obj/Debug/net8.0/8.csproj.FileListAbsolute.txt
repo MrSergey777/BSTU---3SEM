@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\Лабы\ООП\8\8\bin\Debug\net8.0\8.exe
+C:\Users\ASUS\Desktop\Лабы\ООП\8\8\bin\Debug\net8.0\8.deps.json
+C:\Users\ASUS\Desktop\Лабы\ООП\8\8\bin\Debug\net8.0\8.runtimeconfig.json
+C:\Users\ASUS\Desktop\Лабы\ООП\8\8\bin\Debug\net8.0\8.dll
+C:\Users\ASUS\Desktop\Лабы\ООП\8\8\bin\Debug\net8.0\8.pdb
+C:\Users\ASUS\Desktop\Лабы\ООП\8\8\obj\Debug\net8.0\8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Лабы\ООП\8\8\obj\Debug\net8.0\8.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Лабы\ООП\8\8\obj\Debug\net8.0\8.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Лабы\ООП\8\8\obj\Debug\net8.0\8.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Лабы\ООП\8\8\obj\Debug\net8.0\8.sourcelink.json
+C:\Users\ASUS\Desktop\Лабы\ООП\8\8\obj\Debug\net8.0\8.dll
+C:\Users\ASUS\Desktop\Лабы\ООП\8\8\obj\Debug\net8.0\refint\8.dll
+C:\Users\ASUS\Desktop\Лабы\ООП\8\8\obj\Debug\net8.0\8.pdb
+C:\Users\ASUS\Desktop\Лабы\ООП\8\8\obj\Debug\net8.0\8.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\Лабы\ООП\8\8\obj\Debug\net8.0\ref\8.dll

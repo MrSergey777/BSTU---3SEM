@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\1\\1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE9EA86-3441-497C-9FA4-6CFAF0623660}|..\\now\\now.csproj|c:\\users\\asus\\desktop\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\1\\now\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F6AF320-461C-4C8B-9C44-E3170DF02805}|..\\3\\3.csproj|c:\\users\\asus\\desktop\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\1\\3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E67D6B-3149-49A2-8508-6A88C9C50E85}|..\\5\u002B6\\5\u002B6.csproj|c:\\users\\asus\\desktop\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\1\\5\u002B6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFC2F961-CE85-4349-A136-502B4AE1A71C}|..\\4\\4.csproj|c:\\users\\asus\\desktop\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\1\\4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B595A531-06F1-497D-AA00-0FDD8AD77959}|..\\3 - true\\3 - true.csproj|c:\\users\\asus\\desktop\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\1\\3 - true\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CDB4C1-AD90-4292-AB2C-A17164FA0CFC}|..\\ConsoleApp1\\2.csproj|c:\\users\\asus\\desktop\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5AD3A85-2BE5-4EA1-9543-5E267C83B7EF}|1.csproj|c:\\users\\asus\\desktop\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\1\\1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5AD3A85-2BE5-4EA1-9543-5E267C83B7EF}|1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F6AF320-461C-4C8B-9C44-E3170DF02805}|..\\3\\3.csproj|c:\\users\\asus\\desktop\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\1\\3\\3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFC2F961-CE85-4349-A136-502B4AE1A71C}|..\\4\\4.csproj|c:\\users\\asus\\desktop\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\1\\4\\4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5AD3A85-2BE5-4EA1-9543-5E267C83B7EF}|1.csproj|c:\\users\\asus\\desktop\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\1\\1\\1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A5AD3A85-2BE5-4EA1-9543-5E267C83B7EF}|1.csproj|solutionrelative:1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "3",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\1\\3\\3.csproj",
+              "RelativeDocumentMoniker": "..\\3\\3.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\1\\3\\3.csproj",
+              "RelativeToolTip": "..\\3\\3.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-27T12:32:20.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "4",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\1\\4\\4.csproj",
+              "RelativeDocumentMoniker": "..\\4\\4.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\1\\4\\4.csproj",
+              "RelativeToolTip": "..\\4\\4.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-27T12:26:48.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\1\\now\\Program.cs",
+              "RelativeDocumentMoniker": "..\\now\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\1\\now\\Program.cs",
+              "RelativeToolTip": "..\\now\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T12:03:00.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\1\\5\u002B6\\Program.cs",
+              "RelativeDocumentMoniker": "..\\5\u002B6\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\1\\5\u002B6\\Program.cs",
+              "RelativeToolTip": "..\\5\u002B6\\Program.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwAcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T12:01:50.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\1\\4\\Program.cs",
+              "RelativeDocumentMoniker": "..\\4\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\1\\4\\Program.cs",
+              "RelativeToolTip": "..\\4\\Program.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwAcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T11:49:35.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\1\\3 - true\\Program.cs",
+              "RelativeDocumentMoniker": "..\\3 - true\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\1\\3 - true\\Program.cs",
+              "RelativeToolTip": "..\\3 - true\\Program.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T21:50:33.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\1\\3\\Program.cs",
+              "RelativeDocumentMoniker": "..\\3\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\1\\3\\Program.cs",
+              "RelativeToolTip": "..\\3\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAcwBcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T21:31:10.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\1\\1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\1\\1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T18:39:09.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "1.csproj",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\1\\1\\1.csproj",
+              "RelativeDocumentMoniker": "1.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\1\\1\\1.csproj",
+              "RelativeToolTip": "1.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-13T11:53:13.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\1\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "..\\ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "..\\ConsoleApp1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T11:53:04.402Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

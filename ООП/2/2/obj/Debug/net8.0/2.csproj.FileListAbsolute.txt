@@ -1,0 +1,5 @@
+C:\Users\ASUS\Desktop\Лабы\ООП\2\2\obj\Debug\net8.0\2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Лабы\ООП\2\2\obj\Debug\net8.0\2.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Лабы\ООП\2\2\obj\Debug\net8.0\2.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Лабы\ООП\2\2\obj\Debug\net8.0\2.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Лабы\ООП\2\2\obj\Debug\net8.0\2.sourcelink.json
