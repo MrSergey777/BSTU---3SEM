@@ -1,0 +1,344 @@
+@startuml Weather Database Logical Schema
+left to right direction
+!theme plain
+skinparam linetype ortho
+skinparam ranksep 80
+skinparam nodesep 80
+skinparam packageStyle rectangle
+skinparam entityIconSize 0
+hide circle
+
+' Таблица пользователей
+entity Users {
+  --
+  **PK** : id : UUID
+  --
+  username : VARCHAR(50)
+  email : VARCHAR(150)
+  password_hash : VARCHAR(255)
+  is_active : BOOLEAN
+  created_at : TIMESTAMPTZ
+  updated_at : TIMESTAMPTZ
+}
+
+note right of Users
+  UK: username
+  UK: email
+end note
+
+' Таблица провайдеров API
+entity ApiProviders {
+  --
+  **PK** : id : UUID
+  --
+  name : VARCHAR(100)
+  base_url : VARCHAR(255)
+  api_key_masked : VARCHAR(120)
+  contact : VARCHAR(120)
+}
+
+' Таблица локаций
+entity Locations {
+  --
+  **PK** : id : UUID
+  --
+  **FK** : provider_id : UUID (nullable)
+  --
+  name : VARCHAR(120)
+  country : VARCHAR(80)
+  region : VARCHAR(120)
+  latitude : DOUBLE PRECISION
+  longitude : DOUBLE PRECISION
+  created_at : TIMESTAMPTZ
+}
+
+' Таблица данных о погоде (кэш)
+entity WeatherData {
+  --
+  **PK** : id : UUID
+  --
+  **FK** : location_id : UUID
+  **FK** : source_provider_id : UUID (nullable)
+  --
+  data_type : VARCHAR(30)
+  payload : JSONB
+  fetched_at : TIMESTAMPTZ
+  expires_at : TIMESTAMPTZ
+}
+
+note right of WeatherData
+  UK: location_id, data_type, fetched_at
+end note
+
+' Таблица избранных локаций
+entity Favorites {
+  --
+  **PK** : id : UUID
+  --
+  **FK** : user_id : UUID
+  **FK** : location_id : UUID
+  --
+  label : VARCHAR(120)
+  position : INT
+  created_at : TIMESTAMPTZ
+}
+
+note right of Favorites
+  UK: user_id, location_id
+end note
+
+' Таблица уведомлений
+entity Notifications {
+  --
+  **PK** : id : UUID
+  --
+  **FK** : user_id : UUID
+  **FK** : location_id : UUID (nullable)
+  --
+  type : VARCHAR(50)
+  threshold : NUMERIC(10,2)
+  channel : VARCHAR(50)
+  enabled : BOOLEAN
+  schedule : JSONB
+  last_sent_at : TIMESTAMPTZ
+  created_at : TIMESTAMPTZ
+}
+
+' Таблица логов уведомлений
+entity NotificationLogs {
+  --
+  **PK** : id : UUID
+  --
+  **FK** : notification_id : UUID
+  **FK** : user_id : UUID
+  --
+  status : VARCHAR(30)
+  sent_at : TIMESTAMPTZ
+  channel : VARCHAR(50)
+  details : TEXT
+}
+
+' Таблица истории запросов
+entity RequestsHistory {
+  --
+  **PK** : id : UUID
+  --
+  **FK** : user_id : UUID (nullable)
+  **FK** : location_id : UUID (nullable)
+  --
+  query_text : TEXT
+  requested_at : TIMESTAMPTZ
+  client_ip : INET
+}
+
+' Раскладка: две горизонтальные строки
+' Верхний ряд
+Users -[hidden]right- Favorites
+Favorites -[hidden]right- Notifications
+Notifications -[hidden]right- NotificationLogs
+
+' Нижний ряд
+ApiProviders -[hidden]right- Locations
+Locations -[hidden]right- WeatherData
+WeatherData -[hidden]right- RequestsHistory
+
+' Выравнивание по колонкам
+Users -[hidden]down- ApiProviders
+Favorites -[hidden]down- Locations
+Notifications -[hidden]down- WeatherData
+NotificationLogs -[hidden]down- RequestsHistory
+
+' Связи между таблицами
+ApiProviders::id ||-right-o{ Locations::provider_id
+ApiProviders::id ||-right-o{ WeatherData::source_provider_id
+
+Locations::id ||-right-o{ WeatherData::location_id
+Locations::id ||-up-o{ Favorites::location_id
+Locations::id ||-up-o{ Notifications::location_id
+Locations::id ||-right-o{ RequestsHistory::location_id
+
+Users::id ||-right-o{ Favorites::user_id
+Users::id ||-right-o{ Notifications::user_id
+Users::id ||-right-o{ NotificationLogs::user_id
+Users::id ||-down-o{ RequestsHistory::user_id
+
+Notifications::id ||-right-o{ NotificationLogs::notification_id
+
+@enduml
+
+@startuml Weather Service Use Cases
+left to right direction
+!theme plain
+skinparam linetype ortho
+skinparam packageStyle rectangle
+allowmixing
+
+actor "Гость" as Guest
+
+rectangle "Веб-сервис Погода" {
+  usecase "Просмотр суточного прогноза" as UC_Daily
+  usecase "Поиск населённого пункта" as UC_Search
+  usecase "Просмотр почасового прогноза" as UC_Hourly
+  usecase "Просмотр справочной информации" as UC_Info
+}
+
+Guest -- UC_Daily
+Guest -- UC_Search
+Guest -- UC_Hourly
+Guest -- UC_Info
+
+@enduml
+
+@startuml Weather Database Physical Schema
+left to right direction
+!theme plain
+skinparam linetype ortho
+skinparam ranksep 80
+skinparam nodesep 80
+skinparam packageStyle rectangle
+skinparam entityIconSize 0
+hide circle
+
+entity ApiProviders {
+  --
+  **PK** : id : INT
+  --
+  name : VARCHAR(100)
+  base_url : VARCHAR(255)
+  api_key_masked : VARCHAR(100)
+  contact : VARCHAR(100)
+}
+
+entity Locations {
+  --
+  **PK** : id : INT
+  --
+  **FK** : provider_id : INT (nullable)
+  --
+  name : VARCHAR(100)
+  country : VARCHAR(100)
+  region : VARCHAR(100)
+  latitude : DECIMAL(10,8)
+  longitude : DECIMAL(11,8)
+  created_at : DATETIME
+}
+
+entity WeatherData {
+  --
+  **PK** : id : INT
+  --
+  **FK** : location_id : INT
+  --
+  data_type : VARCHAR(50)
+  payload : NVARCHAR(MAX)
+  source : VARCHAR(100)
+  fetched_at : DATETIME
+  expires_at : DATETIME
+}
+
+entity Users {
+  --
+  **PK** : id : INT
+  --
+  **FK** : role_id : INT
+  --
+  username : VARCHAR(50)
+  email : VARCHAR(100)
+  password_hash : VARCHAR(255)
+  is_active : BIT
+  created_at : DATETIME
+  updated_at : DATETIME
+}
+
+note right of Users
+  UK: username
+  UK: email
+end note
+
+entity Favorites {
+  --
+  **PK** : id : INT
+  --
+  **FK** : user_id : INT
+  **FK** : location_id : INT
+  --
+  label : VARCHAR(100)
+  position : INT
+  created_at : DATETIME
+}
+
+note right of Favorites
+  UK: user_id, location_id
+end note
+
+entity Notifications {
+  --
+  **PK** : id : INT
+  --
+  **FK** : user_id : INT
+  **FK** : location_id : INT
+  --
+  type : VARCHAR(50)
+  threshold : DECIMAL(10,2)
+  channel : VARCHAR(50)
+  enabled : BIT
+  schedule : VARCHAR(100)
+  last_sent_at : DATETIME
+  created_at : DATETIME
+}
+
+entity NotificationLogs {
+  --
+  **PK** : id : INT
+  --
+  **FK** : notification_id : INT
+  **FK** : user_id : INT
+  --
+  status : VARCHAR(50)
+  sent_at : DATETIME
+  channel : VARCHAR(50)
+  details : NVARCHAR(MAX)
+}
+
+entity RequestsHistory {
+  --
+  **PK** : id : INT
+  --
+  **FK** : user_id : INT
+  **FK** : location_id : INT
+  --
+  query_text : VARCHAR(255)
+  requested_at : DATETIME
+  client_ip : VARCHAR(50)
+}
+
+' Раскладка: две горизонтальные строки
+Users -[hidden]right- Favorites
+Favorites -[hidden]right- Notifications
+Notifications -[hidden]right- NotificationLogs
+
+ApiProviders -[hidden]right- Locations
+Locations -[hidden]right- WeatherData
+WeatherData -[hidden]right- RequestsHistory
+
+' Выравнивание по колонкам
+Users -[hidden]down- ApiProviders
+Favorites -[hidden]down- Locations
+Notifications -[hidden]down- WeatherData
+NotificationLogs -[hidden]down- RequestsHistory
+
+ApiProviders::id ||-right-o{ Locations::provider_id
+
+Locations::id ||-right-o{ WeatherData::location_id
+Locations::id ||-up-o{ Favorites::location_id
+Locations::id ||-up-o{ Notifications::location_id
+Locations::id ||-right-o{ RequestsHistory::location_id
+
+Users::id ||-right-o{ Favorites::user_id
+Users::id ||-right-o{ Notifications::user_id
+Users::id ||-right-o{ NotificationLogs::user_id
+Users::id ||-down-o{ RequestsHistory::user_id
+
+Notifications::id ||-right-o{ NotificationLogs::notification_id
+
+@enduml

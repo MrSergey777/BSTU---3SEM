@@ -1,4 +1,5 @@
 --1 - создать вр. табл. --> План запроса --> Кл.Индекс
+Exec sp_helpindex 'Student';
 CREATE Table #TimeTable(
 	Name varchar(50),
 	Surname varchar(50),
@@ -144,19 +145,17 @@ WHERE Course = N'БазыДанных' AND Score >= 8;
 
 --5 -----Фрагментация
 
--- 1. Создание временной таблицы
 CREATE TABLE #FragTest (
-    ID INT IDENTITY(1,1) PRIMARY KEY,   -- кластерный индекс по умолчанию
+    ID INT IDENTITY(1,1) PRIMARY KEY,
     StudentName NVARCHAR(100),
     Score INT
 );
--- 2. Заполнение 20000 строк
-set @i4 = 1;
-WHILE @i4 <= 20000
+declare @i5 int = 1;
+WHILE @i5 <= 20000
 BEGIN
     INSERT INTO #FragTest (StudentName, Score)
-    VALUES (CONCAT(N'Студент_', @i4), (@i4 % 100) + 1);
-    SET @i4 = @i4 + 1;
+    VALUES (CONCAT(N'Студент_', @i5), (@i5 % 100) + 1);
+    SET @i5 = @i5 + 1;
 END;
 
 -- 3. Создание некластеризованного индекса по Score
@@ -166,17 +165,10 @@ CREATE NONCLUSTERED INDEX IX_Frag_Score ON #FragTest(Score);
 CREATE PROCEDURE #GetFragInfo
 AS
 BEGIN
-    SELECT 
-        db_name(ps.database_id) AS DatabaseName,
-        OBJECT_NAME(ps.object_id, ps.database_id) AS ObjectName,
-        i.name AS IndexName,
-        ps.index_id,
-        ps.avg_fragmentation_in_percent,
-        ps.page_count
-    FROM sys.dm_db_index_physical_stats(DB_ID('tempdb'), OBJECT_ID('tempdb..#FragTest'), NULL, NULL, 'LIMITED') ps
-    JOIN tempdb.sys.indexes i
-        ON ps.object_id = i.object_id AND ps.index_id = i.index_id
-    WHERE OBJECT_NAME(ps.object_id, ps.database_id) = '#FragTest';
+    SELECT name [Индекс], avg_fragmentation_in_percent [Фрагментация (%)]
+FROM sys.dm_db_index_physical_stats(DB_ID(N'TEMPDB'), 
+OBJECT_ID(N'#FragTest'), NULL, NULL, NULL) ss  JOIN sys.indexes ii on ss.object_id = ii.object_id and ss.index_id = ii.index_id  WHERE name is not null;
+
 END;
 GO
 
@@ -184,13 +176,11 @@ GO
 PRINT '--- Фрагментация до изменений ---';
 EXEC #GetFragInfo;
 
--- 5. Сценарий, повышающий фрагментацию
--- Идея: многократно удаляем часть строк и вставляем новые с рандомным ключом,
--- что вызывает page splits и фрагментацию. Повторяем несколько циклов.
+
 DECLARE @cycle INT = 1;
 WHILE @cycle <= 40  -- увеличьте число циклов, если не достигли высокой фрагментации
 BEGIN
-    -- Удаляем примерно 30% строк (по условию ID % 10 < 3)
+   
     DELETE TOP (600) FROM #FragTest WHERE ID % 10 < 3;
 
     -- Вставляем 600 новых строк с рандомным Score (неупорядоченно)
@@ -205,19 +195,15 @@ BEGIN
     SET @cycle = @cycle + 1;
 END;
 
--- 6. Оценка уровня фрагментации после сценария
 PRINT '--- Фрагментация после сценария (ожидается рост) ---';
 EXEC #GetFragInfo;
 
--- 7. Реорганизация индекса (online, менее затратная операция)
 PRINT '--- Выполняем REORGANIZE ---';
 ALTER INDEX IX_Frag_Score ON #FragTest REORGANIZE;
 
--- 8. Оценка фрагментации после REORGANIZE
 PRINT '--- Фрагментация после REORGANIZE ---';
 EXEC #GetFragInfo;
 
--- 9. Переcтройка индекса (REBUILD)
 PRINT '--- Выполняем REBUILD ---';
 ALTER INDEX IX_Frag_Score ON #FragTest REBUILD;
 
@@ -230,7 +216,7 @@ DROP PROCEDURE #GetFragInfo;
 -- DROP INDEX IX_Frag_Score ON #FragTest;
 -- DROP TABLE #FragTest;
 
----6 ----- Falicator
+---6 ----- Fillfactor
 
 CREATE TABLE #FFTest (
     ID INT IDENTITY(1,1) PRIMARY KEY,
