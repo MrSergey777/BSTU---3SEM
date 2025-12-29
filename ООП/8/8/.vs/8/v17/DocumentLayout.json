@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{01DBF7AA-26A3-4C2D-8C8C-A1C8E6FDBF49}|8.csproj|c:\\users\\asus\\desktop\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\8\\8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01DBF7AA-26A3-4C2D-8C8C-A1C8E6FDBF49}|8.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01DBF7AA-26A3-4C2D-8C8C-A1C8E6FDBF49}|8.csproj|c:\\users\\asus\\desktop\\\u043B\u0430\u0431\u044B\\\u043E\u043E\u043F\\8\\8\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01DBF7AA-26A3-4C2D-8C8C-A1C8E6FDBF49}|8.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\8\\8\\Class1.cs",
+              "RelativeDocumentMoniker": "Class1.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\8\\8\\Class1.cs",
+              "RelativeToolTip": "Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T11:53:27.366Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +45,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041E\u041E\u041F\\8\\8\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkBAAAAAAAA",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAAAAUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-22T11:14:37.143Z",
               "EditorCaption": ""

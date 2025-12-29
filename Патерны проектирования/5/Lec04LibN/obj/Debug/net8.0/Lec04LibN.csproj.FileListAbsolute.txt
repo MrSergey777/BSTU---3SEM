@@ -1,0 +1,36 @@
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/Lec04LibN/obj/Debug/net8.0/Lec04LibN.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/Lec04LibN/obj/Debug/net8.0/Lec04LibN.AssemblyInfoInputs.cache
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/Lec04LibN/obj/Debug/net8.0/Lec04LibN.AssemblyInfo.cs
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/Lec04LibN/obj/Debug/net8.0/Lec04LibN.csproj.CoreCompileInputs.cache
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/Lec04LibN/obj/Debug/net8.0/Lec04LibN.sourcelink.json
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/Lec04LibN/bin/Debug/net8.0/Lec04LibN.deps.json
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/Lec04LibN/bin/Debug/net8.0/Lec04LibN.dll
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/Lec04LibN/bin/Debug/net8.0/Lec04LibN.pdb
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/Lec04LibN/obj/Debug/net8.0/Lec04LibN.dll
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/Lec04LibN/obj/Debug/net8.0/refint/Lec04LibN.dll
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/Lec04LibN/obj/Debug/net8.0/Lec04LibN.pdb
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/Lec04LibN/obj/Debug/net8.0/ref/Lec04LibN.dll
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/Lec04LibN/bin/Debug/net8.0/Lec04LibN.deps.json
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/Lec04LibN/bin/Debug/net8.0/Lec04LibN.dll
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/Lec04LibN/bin/Debug/net8.0/Lec04LibN.pdb
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/Lec04LibN/obj/Debug/net8.0/Lec04LibN.GeneratedMSBuildEditorConfig.editorconfig
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/Lec04LibN/obj/Debug/net8.0/Lec04LibN.AssemblyInfoInputs.cache
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/Lec04LibN/obj/Debug/net8.0/Lec04LibN.AssemblyInfo.cs
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/Lec04LibN/obj/Debug/net8.0/Lec04LibN.csproj.CoreCompileInputs.cache
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/Lec04LibN/obj/Debug/net8.0/Lec04LibN.sourcelink.json
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/Lec04LibN/obj/Debug/net8.0/Lec04LibN.dll
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/Lec04LibN/obj/Debug/net8.0/refint/Lec04LibN.dll
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/Lec04LibN/obj/Debug/net8.0/Lec04LibN.pdb
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/Lec04LibN/obj/Debug/net8.0/ref/Lec04LibN.dll
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\Lec04LibN\obj\Debug\net8.0\Lec04LibN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\Lec04LibN\obj\Debug\net8.0\Lec04LibN.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\Lec04LibN\obj\Debug\net8.0\Lec04LibN.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\Lec04LibN\obj\Debug\net8.0\Lec04LibN.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\Lec04LibN\obj\Debug\net8.0\Lec04LibN.sourcelink.json
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\Lec04LibN\obj\Debug\net8.0\Lec04LibN.dll
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\Lec04LibN\obj\Debug\net8.0\refint\Lec04LibN.dll
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\Lec04LibN\obj\Debug\net8.0\Lec04LibN.pdb
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\Lec04LibN\bin\Debug\net8.0\Lec04LibN.deps.json
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\Lec04LibN\bin\Debug\net8.0\Lec04LibN.dll
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\Lec04LibN\bin\Debug\net8.0\Lec04LibN.pdb
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\Lec04LibN\obj\Debug\net8.0\ref\Lec04LibN.dll

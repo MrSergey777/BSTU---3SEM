@@ -1,0 +1,57 @@
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/TestApp.csproj.AssemblyReference.cache
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/TestApp.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/TestApp.AssemblyInfoInputs.cache
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/TestApp.AssemblyInfo.cs
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/TestApp.csproj.CoreCompileInputs.cache
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/TestApp.sourcelink.json
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/TestApp/bin/Debug/net8.0/TestApp.exe
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/TestApp/bin/Debug/net8.0/TestApp.deps.json
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/TestApp/bin/Debug/net8.0/TestApp.runtimeconfig.json
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/TestApp/bin/Debug/net8.0/TestApp.dll
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/TestApp/bin/Debug/net8.0/TestApp.pdb
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/TestApp/bin/Debug/net8.0/Lec04LibN.dll
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/TestApp/bin/Debug/net8.0/Lec04LibN.pdb
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/TestApp.csproj.Up2Date
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/TestApp.dll
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/refint/TestApp.dll
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/TestApp.pdb
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/TestApp.genruntimeconfig.cache
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/ref/TestApp.dll
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/TestApp/bin/Debug/net8.0/TestApp
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/TestApp/bin/Debug/net8.0/TestApp.deps.json
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/TestApp/bin/Debug/net8.0/TestApp.runtimeconfig.json
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/TestApp/bin/Debug/net8.0/TestApp.dll
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/TestApp/bin/Debug/net8.0/TestApp.pdb
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/TestApp/bin/Debug/net8.0/Lec04LibN.dll
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/TestApp/bin/Debug/net8.0/Lec04LibN.pdb
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/TestApp.csproj.AssemblyReference.cache
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/TestApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/TestApp.AssemblyInfoInputs.cache
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/TestApp.AssemblyInfo.cs
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/TestApp.csproj.CoreCompileInputs.cache
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/TestApp.sourcelink.json
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/TestApp.csproj.Up2Date
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/TestApp.dll
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/refint/TestApp.dll
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/TestApp.pdb
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/TestApp.genruntimeconfig.cache
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab5/TestApp/obj/Debug/net8.0/ref/TestApp.dll
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\TestApp\bin\Debug\net8.0\TestApp.exe
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\TestApp\bin\Debug\net8.0\TestApp.deps.json
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\TestApp\bin\Debug\net8.0\TestApp.runtimeconfig.json
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\TestApp\bin\Debug\net8.0\TestApp.dll
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\TestApp\bin\Debug\net8.0\TestApp.pdb
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\TestApp\bin\Debug\net8.0\Lec04LibN.dll
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\TestApp\bin\Debug\net8.0\Lec04LibN.pdb
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\TestApp\obj\Debug\net8.0\TestApp.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\TestApp\obj\Debug\net8.0\TestApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\TestApp\obj\Debug\net8.0\TestApp.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\TestApp\obj\Debug\net8.0\TestApp.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\TestApp\obj\Debug\net8.0\TestApp.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\TestApp\obj\Debug\net8.0\TestApp.sourcelink.json
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\TestApp\obj\Debug\net8.0\TestApp.csproj.Up2Date
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\TestApp\obj\Debug\net8.0\TestApp.dll
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\TestApp\obj\Debug\net8.0\refint\TestApp.dll
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\TestApp\obj\Debug\net8.0\TestApp.pdb
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\TestApp\obj\Debug\net8.0\TestApp.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\5\TestApp\obj\Debug\net8.0\ref\TestApp.dll

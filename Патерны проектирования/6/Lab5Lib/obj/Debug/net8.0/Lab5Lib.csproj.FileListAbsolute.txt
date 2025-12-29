@@ -1,0 +1,36 @@
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab6/Lab5Lib/obj/Debug/net8.0/Lab5Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab6/Lab5Lib/obj/Debug/net8.0/Lab5Lib.AssemblyInfoInputs.cache
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab6/Lab5Lib/obj/Debug/net8.0/Lab5Lib.AssemblyInfo.cs
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab6/Lab5Lib/obj/Debug/net8.0/Lab5Lib.csproj.CoreCompileInputs.cache
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab6/Lab5Lib/obj/Debug/net8.0/Lab5Lib.sourcelink.json
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab6/Lab5Lib/bin/Debug/net8.0/Lab5Lib.deps.json
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab6/Lab5Lib/bin/Debug/net8.0/Lab5Lib.dll
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab6/Lab5Lib/bin/Debug/net8.0/Lab5Lib.pdb
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab6/Lab5Lib/obj/Debug/net8.0/Lab5Lib.dll
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab6/Lab5Lib/obj/Debug/net8.0/refint/Lab5Lib.dll
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab6/Lab5Lib/obj/Debug/net8.0/Lab5Lib.pdb
+C:/Users/timof/Documents/Visual Studio Code/DesingPatterns/lab6/Lab5Lib/obj/Debug/net8.0/ref/Lab5Lib.dll
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab6/Lab5Lib/bin/Debug/net8.0/Lab5Lib.deps.json
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab6/Lab5Lib/bin/Debug/net8.0/Lab5Lib.dll
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab6/Lab5Lib/bin/Debug/net8.0/Lab5Lib.pdb
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab6/Lab5Lib/obj/Debug/net8.0/Lab5Lib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab6/Lab5Lib/obj/Debug/net8.0/Lab5Lib.AssemblyInfoInputs.cache
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab6/Lab5Lib/obj/Debug/net8.0/Lab5Lib.AssemblyInfo.cs
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab6/Lab5Lib/obj/Debug/net8.0/Lab5Lib.csproj.CoreCompileInputs.cache
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab6/Lab5Lib/obj/Debug/net8.0/Lab5Lib.sourcelink.json
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab6/Lab5Lib/obj/Debug/net8.0/Lab5Lib.dll
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab6/Lab5Lib/obj/Debug/net8.0/refint/Lab5Lib.dll
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab6/Lab5Lib/obj/Debug/net8.0/Lab5Lib.pdb
+/Users/timofejmarusko/Documents/VisualStudioCodeRepos/DesingPatterns/lab6/Lab5Lib/obj/Debug/net8.0/ref/Lab5Lib.dll
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\6\Lab5Lib\bin\Debug\net8.0\Lab5Lib.deps.json
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\6\Lab5Lib\bin\Debug\net8.0\Lab5Lib.dll
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\6\Lab5Lib\bin\Debug\net8.0\Lab5Lib.pdb
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\6\Lab5Lib\obj\Debug\net8.0\Lab5Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\6\Lab5Lib\obj\Debug\net8.0\Lab5Lib.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\6\Lab5Lib\obj\Debug\net8.0\Lab5Lib.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\6\Lab5Lib\obj\Debug\net8.0\Lab5Lib.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\6\Lab5Lib\obj\Debug\net8.0\Lab5Lib.sourcelink.json
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\6\Lab5Lib\obj\Debug\net8.0\Lab5Lib.dll
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\6\Lab5Lib\obj\Debug\net8.0\refint\Lab5Lib.dll
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\6\Lab5Lib\obj\Debug\net8.0\Lab5Lib.pdb
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\6\Lab5Lib\obj\Debug\net8.0\ref\Lab5Lib.dll

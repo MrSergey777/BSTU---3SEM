@@ -3,6 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041F\u0430\u0442\u0435\u0440\u043D\u044B \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\3\\3-sigma\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5D979BEE-0C49-4EE2-8186-8F3141854B1E}|..\\Task-3\\Task-3.csproj|c:\\users\\asus\\desktop\\\u043B\u0430\u0431\u044B\\\u043F\u0430\u0442\u0435\u0440\u043D\u044B \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\3\\task-3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75469BCB-AF90-480B-96D5-83CC466178DA}|..\\Task-2\\Task-2.csproj|c:\\users\\asus\\desktop\\\u043B\u0430\u0431\u044B\\\u043F\u0430\u0442\u0435\u0440\u043D\u044B \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\3\\task-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{79B3AD9F-8A49-4838-B4BD-868FF69FACD0}|3-sigma.csproj|c:\\users\\asus\\desktop\\\u043B\u0430\u0431\u044B\\\u043F\u0430\u0442\u0435\u0440\u043D\u044B \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\3\\3-sigma\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79B3AD9F-8A49-4838-B4BD-868FF69FACD0}|3-sigma.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -20,14 +26,38 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041F\u0430\u0442\u0435\u0440\u043D\u044B \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\3\\Task-3\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Task-3\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041F\u0430\u0442\u0435\u0440\u043D\u044B \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\3\\Task-3\\Program.cs",
+              "RelativeToolTip": "..\\Task-3\\Program.cs",
+              "ViewState": "AQIAAF0BAAAAAAAAAAAqwGIBAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T09:14:37.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041F\u0430\u0442\u0435\u0440\u043D\u044B \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\3\\Task-2\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Task-2\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041F\u0430\u0442\u0435\u0440\u043D\u044B \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\3\\Task-2\\Program.cs",
+              "RelativeToolTip": "..\\Task-2\\Program.cs",
+              "ViewState": "AQIAABoBAAAAAAAAAAAiwM4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T09:13:45.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041F\u0430\u0442\u0435\u0440\u043D\u044B \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\3\\3-sigma\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u041B\u0430\u0431\u044B\\\u041F\u0430\u0442\u0435\u0440\u043D\u044B \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\3\\3-sigma\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAAUwFgAAAAAAAAA",
+              "ViewState": "AQIAADsBAAAAAAAAAAAuwDcBAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T17:39:00.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-30T17:39:00.509Z"
             }
           ]
         }

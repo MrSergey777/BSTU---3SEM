@@ -1,0 +1,12 @@
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\4\Lec03LibN\bin\Debug\net8.0\Lec03LibN.deps.json
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\4\Lec03LibN\bin\Debug\net8.0\Lec03LibN.dll
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\4\Lec03LibN\bin\Debug\net8.0\Lec03LibN.pdb
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\4\Lec03LibN\obj\Debug\net8.0\Lec03LibN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\4\Lec03LibN\obj\Debug\net8.0\Lec03LibN.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\4\Lec03LibN\obj\Debug\net8.0\Lec03LibN.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\4\Lec03LibN\obj\Debug\net8.0\Lec03LibN.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\4\Lec03LibN\obj\Debug\net8.0\Lec03LibN.sourcelink.json
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\4\Lec03LibN\obj\Debug\net8.0\Lec03LibN.dll
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\4\Lec03LibN\obj\Debug\net8.0\refint\Lec03LibN.dll
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\4\Lec03LibN\obj\Debug\net8.0\Lec03LibN.pdb
+C:\Users\ASUS\Desktop\Лабы\Патерны проектирования\4\Lec03LibN\obj\Debug\net8.0\ref\Lec03LibN.dll
